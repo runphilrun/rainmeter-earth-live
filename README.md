@@ -22,5 +22,15 @@ Currently the only available setting is whether to fetch "natural" color or "enh
 *  "Slide show" mode that fetches multiple recent images and forms an animated wallpaper
 
 ## About DSCOVR: EPIC
-From [EPIC's API _about_ section](https://epic.gsfc.nasa.gov/about/api):
+__[Earth Polychromatic Imaging Camera (EPIC)](https://epic.gsfc.nasa.gov/epic)__:
+> EPIC (Earth Polychromatic Imaging Camera) is a 10-channel spectroradiometer (317 – 780 nm) onboard NOAA’s DSCOVR (Deep Space Climate Observatory) spacecraft. EPIC provides 10 narrow band spectral images of the entire sunlit face of Earth using a 2048x2048 pixel CCD (Charge Coupled Device) detector coupled to a 30-cm aperture Cassegrain telescope (Figure 1).
+> 
+> ![Figure 1. EPIC 30 cm f/9.6 Cassegrain telescope showing the area containing the CCD (red) filter wheel (green).](https://epic.gsfc.nasa.gov/assets/Image_002.jpg)
+>
+> The DSCOVR spacecraft is located at the Earth-Sun Lagrange-1 (L-1) point giving EPIC a unique angular perspective that will be used in science applications to measure ozone, aerosols, cloud reflectivity, cloud height, vegetation properties, and UV radiation estimates at Earth's surface.
+
+__[EPIC's API](https://epic.gsfc.nasa.gov/about/api)__:
 > The EPIC API provides information on the daily imagery collected by DSCOVR's Earth Polychromatic Imaging Camera (EPIC) instrument. Uniquely positioned at the Earth-Sun Lagrange point, EPIC provides full disc imagery of the Earth and captures unique perspectives of certain astronomical events such as lunar transits using a 2048x2048 pixel CCD (Charge Coupled Device) detector coupled to a 30-cm aperture Cassegrain telescope.
+
+__[Image Use Policy]()__:
+> Materials published by the NASA EPIC Team, including imagery, are freely available for re-production or re-use, including commercial purposes. All DSCOVR EPIC data products are archived and publicly distributed through the NASA Langley Atmospheric Science Data Center (ASDC): https://eosweb.larc.nasa.gov.
