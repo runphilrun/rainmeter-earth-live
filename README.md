@@ -14,7 +14,7 @@ The skin updates once per second. NASA's server is pinged once every 10 minutes.
 
 ## Settings
 Settings may be changed by commenting/uncommenting chunks of code in `Settings.ini`. 
-Currently the only available setting is whether to fetch "natural" color or "enhanced" color images, and the height and width of the image. 
+Currently the only available setting is whether to fetch "natural" color or "enhanced" color images.
 
 ## Plans for future versions
 *  Aesthetically pleasing photoprocessing, such as the processing done by the [@dscovr_epic](https://twitter.com/dscovr_epic?lang=en)
