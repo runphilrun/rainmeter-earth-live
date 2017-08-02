@@ -12,8 +12,12 @@ Once data is fetched from NASA, the image is displayed and the date it was taken
 
 The skin updates once per second. NASA's server is pinged once every 10 minutes.
 
+## Installation
+* Run the included `.rmskin` package to automatically install the skin.
+* Place `EarthLive.ini` and `Settings.ini` in a directory within `C:\User\your-username\Documents\Rainmeter\Skins` and load the `EarthLive.ini` skin from the Rainmeter Manage window.
+
 ## Settings
-Settings may be changed by commenting/uncommenting chunks of code in `Settings.ini`. 
+Settings may be changed by commenting/uncommenting chunks of code in `Settings.ini`.
 Currently the only available setting is whether to fetch "natural" color or "enhanced" color images.
 
 ## Plans for future versions
@@ -24,7 +28,7 @@ Currently the only available setting is whether to fetch "natural" color or "enh
 ## About DSCOVR: EPIC
 __[Earth Polychromatic Imaging Camera (EPIC)](https://epic.gsfc.nasa.gov/epic)__:
 > EPIC (Earth Polychromatic Imaging Camera) is a 10-channel spectroradiometer (317 – 780 nm) onboard NOAA’s DSCOVR (Deep Space Climate Observatory) spacecraft. EPIC provides 10 narrow band spectral images of the entire sunlit face of Earth using a 2048x2048 pixel CCD (Charge Coupled Device) detector coupled to a 30-cm aperture Cassegrain telescope (Figure 1).
-> 
+>
 > ![Figure 1. EPIC 30 cm f/9.6 Cassegrain telescope showing the area containing the CCD (red) filter wheel (green).](https://epic.gsfc.nasa.gov/assets/Image_002.jpg)
 >
 > The DSCOVR spacecraft is located at the Earth-Sun Lagrange-1 (L-1) point giving EPIC a unique angular perspective that will be used in science applications to measure ozone, aerosols, cloud reflectivity, cloud height, vegetation properties, and UV radiation estimates at Earth's surface.
