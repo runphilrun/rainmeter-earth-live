@@ -9,17 +9,18 @@ Image name, date, lat/long of the centroid, and more information is accessible a
 Image files are located at a systematic location with only the name changing for each picture.
 When the API is queried for recent data, it serves between 8 and 20 images over a single day (~00:00 thru 23:59 UTC) for the most recent day.
 
-NASA's server is pinged once every 10 minutes.
-This skin scrubs the API data for these images and their metadata.
-All images are downloaded and stored in the skin's DownloadFile directory.
-An image is displayed and its timestamp is overlaid on top.
-Images are cycled in order to make a "slideshow" of the most recent images of Earth for one full day.
+
+1. NASA's server is pinged once every 10 minutes.
+2. This skin scrubs the API data for these images and their metadata.
+3. All images are downloaded and stored in the skin's DownloadFile directory.
+4. An image is displayed and its timestamp is overlaid on top.
+5. Images are cycled in order to make a "slideshow" of the most recent images of Earth for one full day.
 When a new set of images is posted, the new set will be downloaded and replace existing images.
 
 ## Installation
 __Installer:__ Run the included `.rmskin` package to automatically install the skin.
 
-__Manual:__ Place `BlueMarble.ini` and `Settings.ini` in a directory within `C:\User\your-username\Documents\Rainmeter\Skins` and load the `BlueMarble.ini` skin from the Rainmeter Manage window.
+__Manual:__ Place the `rainmeter-bluemarble` directory within `C:\User\your-username\Documents\Rainmeter\Skins` and load the `BlueMarble.ini` skin from the Rainmeter Manage window.
 
 ## Settings
 Settings may be changed by commenting/uncommenting chunks of code in `Settings.ini`.
