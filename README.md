@@ -1,5 +1,5 @@
 # Blue Marble: a dynamic wallpaper powered by Rainmeter
-EarthLive is a [Rainmeter](https://www.rainmeter.net/) skin that fetches the latest daily color imagery of Earth from the [EPIC camera onboard the DSCOVR spacecraft](https://epic.gsfc.nasa.gov/) and displays it as the system wallpaper.
+BlueMarble is a [Rainmeter](https://www.rainmeter.net/) skin that fetches the latest daily color imagery of Earth from the [EPIC camera onboard the DSCOVR spacecraft](https://epic.gsfc.nasa.gov/) and displays it as the system wallpaper.
 
 This project was inspired by the unofficial Twitter bot ([@dscovr_epic](https://twitter.com/dscovr_epic?lang=en)) created by [russss](https://github.com/russss/dscovr-epic).
 
@@ -17,8 +17,9 @@ Images are cycled in order to make a "slideshow" of the most recent images of Ea
 When a new set of images is posted, the new set will be downloaded and replace existing images.
 
 ## Installation
-* Run the included `.rmskin` package to automatically install the skin.
-* Place `BlueMarble.ini` and `Settings.ini` in a directory within `C:\User\your-username\Documents\Rainmeter\Skins` and load the `BlueMarble.ini` skin from the Rainmeter Manage window.
+__Installer:__ Run the included `.rmskin` package to automatically install the skin.
+
+__Manual:__ Place `BlueMarble.ini` and `Settings.ini` in a directory within `C:\User\your-username\Documents\Rainmeter\Skins` and load the `BlueMarble.ini` skin from the Rainmeter Manage window.
 
 ## Settings
 Settings may be changed by commenting/uncommenting chunks of code in `Settings.ini`.
