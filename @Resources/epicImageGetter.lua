@@ -8,17 +8,17 @@ function Initialize()
 end
 
 function Update()
-    local jsonParser = dofile(SKIN:GetVariable('@')..'json.lua')
+    local json = dofile(SKIN:GetVariable('@')..'json.lua')
+    local inspect = dofile(SKIN:GetVariable('@')..'inspect.lua')
     sAPIjson= SELF:GetOption('jsonString')
     count = 0
     for word in string.gmatch(sAPIjson,'"image"') do
        count = count + 1
     end
     print(count..' images found')
-
-    --local json = require "json"
-    tParsedJSON= jsonParser.parse(sAPIjson)
-    print(tParsedJSON)
-    return(tParsedJSON)
-    --]]
+    if count > 0 then
+        tParsedJSON= json.parse(sAPIjson)
+        print(assert(inspect(tParsedJSON)))
+        return(assert(inspect(tParsedJSON)))
+    else return(0) end
 end
