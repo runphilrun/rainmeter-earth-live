@@ -4,6 +4,7 @@ A compact pure-Lua JSON library.
 The main functions are: json.stringify, json.parse.
 
 Written by Tyler Neylon (https://gist.github.com/tylerneylon)
+https://gist.github.com/tylerneylon/59f4bcf316be525b30ab
 
 ## json.stringify:
 
@@ -192,5 +193,4 @@ function json.parse(str, pos, end_delim)
     error('Invalid json syntax starting at ' .. pos_info_str)
   end
 end
-
---return json
+return json
